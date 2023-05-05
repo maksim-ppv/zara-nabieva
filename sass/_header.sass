@@ -1,0 +1,141 @@
+.header
+    background: url(../img/portraitmain3.png) center / cover no-repeat
+.background_image
+    background: radial-gradient(59.3% 59.3% at 51.15% 37.71%, transparent 40%, #050507 100%)
+    padding-bottom: 250px
+.navbar 
+    display: flex
+    justify-content: space-between
+    padding-top: 30px
+.navbar__links 
+    display: flex
+    justify-content: space-between
+    flex: 0.7
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 25px
+.navbar__link 
+    text-decoration: none
+    color: #cfcfcf
+.navbar__link:hover
+    text-decoration: underline
+    color: #7B519C
+.navbar__locations
+    font-family: Roboto
+    font-size: 14px
+    line-height: 28px 
+.navbar__location
+    margin-bottom: 5px
+    display: block 
+.navbar__contacts
+    a
+        margin-right: 5px
+        img
+            margin-bottom: -3px
+.contacts__phone 
+    text-decoration: none
+    color: #D9C7C3
+    font-size: 20px
+.header__title 
+    font-family: Alice
+    font-size: 32px
+    font-style: normal
+    font-weight: 600
+    line-height: 45px
+    margin-top: 50px
+    margin-bottom: 85px
+    max-width: 440px
+.header__subtitle 
+    font-family: Roboto
+    font-style: normal
+    font-weight: 600
+    font-size: 22px
+    line-height: 32px
+    margin-bottom: 50px
+    max-width: 490px
+.header__description
+    font-family: Alice
+    font-size: 19px
+    line-height: 19px
+    padding: 0
+    list-style: none
+    margin-bottom: 60px
+.description_li
+    margin-bottom: 15px
+    img
+        margin: -8px
+        width: 13px
+        height: 27px
+    span
+        margin-left: 15px 
+.button_viber
+    display: inline-block
+    text-transform: uppercase
+    text-decoration: none
+    color: white
+    padding: 15px 70px
+    background: #7B519C
+    border-radius: 40px
+    font-family: Roboto
+    font-weight: bold
+    font-size: 12px
+    line-height: 10px
+    text-align: center
+    letter-spacing: 2px
+    animation: btn 2.5s infinite linear
+@keyframes btn
+    0%
+        transform: scale(1)
+    50%
+        transform: scale(1.1) 
+    100%
+        transform: scale(1)
+        
+@media (max-width: 768px)
+    .header__title 
+        margin-top: 10px
+        margin-bottom: 200px
+    .header__subtitle 
+        max-width: 350px
+    .navbar__links 
+        font-size: 15px
+        flex: 1
+        display: inline-block
+    .navbar__link
+        margin-right: 10px
+    .navbar__desktop_loc
+        display: none
+    .navbar
+        align-items: center
+    .header__button
+        text-align: center
+    .background_image
+        background-position: top 0px right -270px
+        background-size: cover
+        min-height: 800px
+@media (max-width: 576px)
+    .header__title 
+        margin-top: 10px
+        margin-bottom: 235px
+        font-size: 26px
+        line-height: 30px
+    .header__subtitle 
+        margin-bottom: 40px
+        font-weight: 600
+        font-size: 18px
+        line-height: 32px
+    .header__description
+        font-size: 17px
+        line-height: 15px
+    .background_image
+        background-position: top 40px right -260px
+        background-size: cover
+        min-height: 800px
+@media (max-width: 376px)
+    .background_image
+        background-position: top 40px right -260px
+        background-size: cover
+        min-height: 800px
+

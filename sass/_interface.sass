@@ -1,0 +1,32 @@
+*
+    box-sizing: border-box
+    margin: 0
+body
+    color: #ffffff
+    position: relative
+    font-family: Roboto
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+.overflow-hidden
+    width: 100%
+    overflow: hidden
+.btn_close
+    display: none !important
+.container
+    max-width: 960px
+    margin: auto  
+@media (max-width: 991px)
+    .container
+        max-width: 750px
+@media (max-width: 768px)
+    .container
+        min-width: 100%
+        padding: 0 20px
+button:active, button:focus
+    outline: none !important
+
+button::-moz-focus-inner
+    border: 0 !important
+button
+    border: none
+    background: none
+    cursor: pointer
