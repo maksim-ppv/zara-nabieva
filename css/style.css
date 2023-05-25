@@ -7,6 +7,7 @@ body {
   color: #ffffff;
   position: relative;
   font-family: Roboto;
+  background: #000000;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -16,7 +17,8 @@ body {
 }
 
 .btn_close {
-  display: none !important;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .container {
@@ -105,7 +107,7 @@ button {
 
 .contacts__phone {
   text-decoration: none;
-  color: #D9C7C3;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -205,9 +207,11 @@ button {
     text-align: center;
   }
   .background_image {
+    background: radial-gradient(100.3% 37.3% at 51.15% 37.71%, transparent 40%, #050507 100%);
     background-position: top 0px right -270px;
     background-size: cover;
-    min-height: 800px;
+    min-height: 800p;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 576px) {
@@ -230,7 +234,7 @@ button {
   .background_image {
     background-position: top 40px right -260px;
     background-size: cover;
-    min-height: 800px;
+    padding-bottom: 0px;
   }
 }
 @media (max-width: 376px) {
@@ -414,6 +418,7 @@ button {
 @media (max-width: 768px) {
   .about__title {
     padding-top: 80px;
+    line-height: 35px;
     padding-bottom: 48px;
   }
   .section__title {
@@ -427,8 +432,8 @@ button {
     margin: auto;
   }
   .about__me {
-    padding-top: 20px;
-    width: 98%;
+    padding: 0px 10px;
+    font-size: 10px;
     background: radial-gradient(50% 50% at 50% 50%, #8f97a2 0%, #010813 100%);
   }
   .about__me p {
@@ -437,9 +442,30 @@ button {
   }
   .about__contact {
     margin: auto;
+    padding-top: 0px;
   }
   .about__btn {
     margin-top: 45px;
+  }
+  .about__text {
+    display: block;
+    min-width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: inline-block;
+    font-family: Roboto;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .about__text span {
+    font-size: 15px;
+  }
+  .about__text p {
+    font-size: 13px;
   }
 }
 @media (max-width: 320px) {
@@ -666,6 +692,9 @@ button {
 }
 
 @media (max-width: 576px) {
+  .principles__text {
+    padding-bottom: 50px;
+  }
   .principles__description {
     padding-bottom: 35px;
   }
@@ -764,10 +793,6 @@ button {
 
 .price__seans {
   vertical-align: top;
-}
-
-.button__price {
-  border: 2px solid #FFFFFF;
 }
 
 .price__btn {
