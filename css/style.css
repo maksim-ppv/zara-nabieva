@@ -4,7 +4,7 @@
 }
 
 body {
-  color: #ffffff;
+  color: #000000;
   position: relative;
   font-family: Roboto;
   background: #000000;
@@ -107,7 +107,7 @@ button {
 
 .contacts__phone {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
 }
 
@@ -202,12 +202,13 @@ button {
   }
   .navbar {
     align-items: center;
+    padding-top: 10px;
   }
   .header__button {
     text-align: center;
   }
   .background_image {
-    background: radial-gradient(100.3% 37.3% at 51.15% 37.71%, transparent 40%, #050507 100%);
+    background: radial-gradient(238.3% 40.3%, transparent 40%, #f0f0f0 100%);
     background-position: top 0px right -270px;
     background-size: cover;
     min-height: 800p;
@@ -295,7 +296,7 @@ button {
 }
 .menu-button__line {
   position: absolute;
-  background-color: #ffffff;
+  background-color: #6a6a6a;
   height: 3px;
   width: 20px;
   margin-top: -1px;
@@ -338,11 +339,11 @@ button {
 .about {
   padding-bottom: 10px;
   background: #050507;
-  background: linear-gradient(to bottom, #050507 50%, #010813);
+  background: linear-gradient(to bottom, #f0f0f0 50%, #010813);
 }
 
 .about__title_bg {
-  background: #050507;
+  background: #f0f0f0;
 }
 
 .about__title {
