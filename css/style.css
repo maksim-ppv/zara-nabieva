@@ -63,7 +63,7 @@ button {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .navbar__links {
