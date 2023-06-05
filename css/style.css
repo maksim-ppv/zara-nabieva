@@ -754,7 +754,6 @@ button {
 .slider__item {
   padding: 20px;
   min-width: 230px;
-  min-height: 450px;
 }
 
 .slider__img {
